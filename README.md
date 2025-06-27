@@ -26,17 +26,6 @@ O projeto é composto por:
 
 ---
 
-## 💻 Como executar
-
-Você pode executar diretamente com Python 3:
-
-```bash
-python nome_do_arquivo.py
-```
-Isso irá cadastrar um produto de exemplo, registrar movimentações, exibir o relatório e mostrar o histórico.
-
----
-
 ## 🎯 Objetivo
 Este projeto foi desenvolvido como parte de uma atividade prática da faculdade. O foco foi treinar a aplicação de conceitos de orientação a objetos, manipulação de listas, estruturação de dados e simulação de processos de estoque de forma simples.
 
