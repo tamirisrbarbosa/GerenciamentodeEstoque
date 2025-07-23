@@ -1,57 +1,77 @@
-# 📦 Projeto de Gestão de Produtos com Controle de Estoque
+# 📦 Gerenciador de Estoque em Python – Projeto POO
 
-Este projeto em Python simula o gerenciamento de produtos em estoque e o controle de movimentações de entrada e saída. A ideia é oferecer uma estrutura simples e funcional para registrar produtos, acompanhar suas quantidades e consultar históricos de movimentações.
+Este projeto simula um sistema de controle de estoque, desenvolvido com foco no aprendizado de Programação Orientada a Objetos (POO) em Python. O objetivo é registrar produtos, controlar movimentações (entrada e saída), consultar histórico e visualizar o estoque atualizado.
 
 ---
 
 ## 🧠 Funcionalidades
 
-- Cadastro de novos produtos com informações como nome, categoria, localização, preço e quantidade inicial;
-- Registro de movimentações de entrada e saída com data e validações;
-- Consulta de produto pelo ID;
-- Geração de um relatório com os produtos e suas quantidades;
-- Consulta do histórico de movimentações de um determinado produto.
+- Cadastro de produtos (nome, categoria, localização, preço, quantidade);
+- Registro de movimentações com data, tipo (entrada/saída) e validações;
+- Consulta de produtos por ID;
+- Geração de relatórios com status atual do estoque;
+- Histórico completo de movimentações por produto.
+
+---
+
+## 🧰 Tecnologias e Conceitos
+
+- Python 3
+- Programação Orientada a Objetos (POO)
+- Listas e dicionários
+- Estruturação de dados
+- Simulação de regras de negócio
 
 ---
 
 ## 🗂️ Estrutura do Projeto
 
-O projeto é composto por:
+```
+📦 GerenciamentodeEstoque/
+├── GerenciamentodeEstoque.py # Script principal com todas as classes e funções
+├── README.md # Documentação do projeto
+```
 
-- Duas classes principais:
-  - `Produto`: representa cada item no estoque;
-  - `Movimentacao`: registra entradas e saídas.
-- Funções para cadastro, movimentação, consulta e geração de relatórios.
-- Um exemplo de uso no final do código para testar as funcionalidades.
+---
+
+## ▶️ Como Executar
+
+1. Clone este repositório:
+```
+git clone https://github.com/tamirisrbarbosa/GerenciamentodeEstoque.git
+```
+2. Execute o script:
+```
+python GerenciamentodeEstoque.py
+```
+---
+
+## 🖥️ Simulação no terminal (exemplo)
+```
+Produto 'Café' adicionado com sucesso!
+Entrada: +10 unidades
+Saída: -5 unidades
+Saldo atual: 5 unidades
+```
+---
+
+## ✨ Melhorias Futuras
+
+- Persistência de dados com arquivos .json ou banco de dados;
+- Interface gráfica com Tkinter;
+- Filtros de movimentações por data ou tipo;
+- Sistema de login por usuário e tipo de acesso.
 
 ---
 
 ## 🎯 Objetivo
-Este projeto foi desenvolvido como parte de uma atividade prática da faculdade. O foco foi treinar a aplicação de conceitos de orientação a objetos, manipulação de listas, estruturação de dados e simulação de processos de estoque de forma simples.
+Desenvolvido como parte de uma atividade prática no curso de Análise e Desenvolvimento de Sistemas. O foco foi aplicar POO e simular processos reais de controle de estoque.
 
 ---
 
-## 📚 Tecnologias utilizadas
-Python 3
+## 👩‍💻 Sobre mim
+Sou a Tamiris Barbosa, em transição de carreira para Desenvolvimento de Sistemas, atualmente cursando Análise e Desenvolvimento de Sistemas.
 
----
+🔗 [LinkedIn](https://www.linkedin.com/in/tamirisrodriguesbarbosa)  
+🐙 [GitHub](https://github.com/tamirisrbarbosa)
 
-## ✨ Possíveis melhorias futuras
-Persistência de dados com arquivos ou banco de dados;
-
-Interface gráfica simples com Tkinter;
-
-Sistema de autenticação de usuários;
-
-Filtros no histórico por data ou tipo de movimentação.
-
----
-
-## 💁‍♀️ Sobre mim
-Oi! Eu sou a Iris (Tamiris Barbosa) e estou em transição de carreira pra área de desenvolvimento.
-
-Se quiser trocar ideia sobre programação ou tecnologia, bora conversar! 🤝
-
-🔗 [Meu LinkedIn](https://www.linkedin.com/in/tamirisrodriguesbarbosa)
-
-🐙 [Meu GitHub](https://github.com/tamirisrbarbosa)
